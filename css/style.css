@@ -46,9 +46,6 @@
 
 
 
-
-
-
 @media screen and (max-width: 525px){
     .flower-shop-font{
         font-size: 0.875rem;
@@ -101,5 +98,18 @@
     .cart-item, .cart-btn{
         width: 220px;
     }
-
+    /* Plants lover responsive */
+    .flower-lover>div{
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    .flower-lover-heading{
+        font-size: 1.5rem;
+    }
+    .lover-lover-lists{
+        padding: 1rem 0;
+    }
+    .trusted-badge{
+        display: none;
+    }
 }
