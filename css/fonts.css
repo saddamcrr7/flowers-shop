@@ -7,14 +7,17 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-size: 1.375rem;
   font-style: normal;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 
-.flower-shop-heading-font {
+.flower-shop-heading {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: 700;
+  font-size: 3rem;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }

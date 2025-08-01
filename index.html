@@ -4,12 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresh Flower Shop</title>
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <h1 class="flower-shop-heading-font">Welcome to FLower Shop</h1>
+<body class="flower-shop-font">
+    <header class="header lg:w-[1440px] sm:w-96 mx-auto">
+        <nav class="navbar lg:w-[1140px] sm:w-96 mt-7 lg:mx-36 flex justify-between items-center">
+            <img src="assets/logo.png" alt="Logo">
+            <ul class="nav-items flex gap-12">
+                <li class="nav-item"><a href="index.html" class="nav-link active hide-sm">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link hide-sm">Shop</a></li>
+                <li class="nav-item"><a href="#" class="nav-link hide-sm">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><i class="nav-link-icon lni lni-cart-1"></i>Cart($56)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner lg:w-[1140px] sm:w-96 mx-auto my-28">
+       <div class="flex justify-center items-center">
+         <div class="banner-content w-1/2">
+            <h1 class="flower-shop-heading text-black">ALWAYS <span class="primary-color">FRESH <br> FLOWERS</span></h1>
+            <p class="banner-description">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        </div>
+        <img class="w-1/2" src="assets/banner-flower.png" alt="Banner Flower">
+       </div>
+    </section>
+    <section class="plants lg:w-[1140px] sm:w-96 mx-auto">
+            <h2 class="flower-shop-heading text-center text-black"><span class="primary-color">Our</span> Plants</h2>
+            <p class="text-center">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            <div class="cart-items grid grid-cols-4 gap-x-5 gap-y-7 mt-12 text-center place-items-center">
+                <div class="cart-item">
+                    <img src="assets/flower-cart.png" alt="" class="cart-img mb-6">
+                    <h3 class="cart-title text-black font-medium">Lily Blossom</h3>
+                    <p class="cart-price text-black font-bold mb-6">20 USD</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+               <div class="cart-item">
+                    <img src="assets/flower-cart.png" alt="" class="cart-img mb-6">
+                    <h3 class="cart-title text-black font-medium">Lily Blossom</h3>
+                    <p class="cart-price text-black font-bold mb-6">20 USD</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="assets/flower-cart.png" alt="" class="cart-img mb-6">
+                    <h3 class="cart-title text-black font-medium">Lily Blossom</h3>
+                    <p class="cart-price text-black font-bold mb-6">20 USD</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+               <div class="cart-item">
+                    <img src="assets/flower-cart.png" alt="" class="cart-img mb-6">
+                    <h3 class="cart-title text-black font-medium">Lily Blossom</h3>
+                    <p class="cart-price text-black font-bold mb-6">20 USD</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="assets/flower-cart.png" alt="" class="cart-img mb-6">
+                    <h3 class="cart-title text-black font-medium">Lily Blossom</h3>
+                    <p class="cart-price text-black font-bold mb-6">20 USD</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+               <div class="cart-item">
+                    <img src="assets/flower-cart.png" alt="" class="cart-img mb-6">
+                    <h3 class="cart-title text-black font-medium">Lily Blossom</h3>
+                    <p class="cart-price text-black font-bold mb-6">20 USD</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+               <div class="cart-item">
+                    <img src="assets/flower-cart.png" alt="" class="cart-img mb-6">
+                    <h3 class="cart-title text-black font-medium">Lily Blossom</h3>
+                    <p class="cart-price text-black font-bold mb-6">20 USD</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+                <div class="cart-item">
+                    <img src="assets/flower-cart.png" alt="" class="cart-img mb-6">
+                    <h3 class="cart-title text-black font-medium">Lily Blossom</h3>
+                    <p class="cart-price text-black font-bold mb-6">20 USD</p>
+                    <button class="cart-btn">Add to Cart</button>
+                </div>
+            </div>
+    </section>
 </body>
 </html>

@@ -1,0 +1,105 @@
+:root{
+    --primary-color: #E95A08;
+}
+/* shared style */
+
+.primary-color{
+    color: var(--primary-color);
+}
+.cart-btn{
+    width: 270px;
+    height: 50px;
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+ /* Nav Style */
+.nav-link{
+    color: #8987A1;
+    font-weight: 400;
+    transition: all .5s ease-in-out;
+
+}
+
+.nav-link:hover{
+    color: #252432;
+    font-weight: 700;
+}
+.active{
+    color: #252432;
+    font-weight: 700;
+}
+.nav-link-icon{
+    font-size: 1.5rem;
+    color: black;
+    position: relative;
+    top: 5px;
+}
+/* banner style */
+
+.banner-content h1{
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 525px){
+    .flower-shop-font{
+        font-size: 0.875rem;
+    }
+    .navbar{
+        margin: 1rem;
+    }
+    .nav-items{
+        margin-top: 2rem;
+    }
+    .nav-link.hide-sm{
+        display: none;
+    }
+    .nav-link-icon{
+        position: relative;
+        left: -25px;
+        top: 30px;
+    }
+    .nav-item{
+        color: black;
+    }
+    /* Banner Responsive */
+    .banner{
+        margin-top: 28px;
+        margin-bottom: 65px;
+    }
+    .banner-content{
+        padding: 0 1rem;
+    }
+    .banner>div{
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+    .banner-content, img{
+        width: 100%;
+    }
+    .banner-content{
+        text-align: left;
+    }
+    .banner-content h1{
+        font-size: 1.5rem;
+    }
+    /* Plants Responsive */
+    .plants{
+        padding: 1rem;
+    }
+    .cart-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cart-item, .cart-btn{
+        width: 220px;
+    }
+
+}
