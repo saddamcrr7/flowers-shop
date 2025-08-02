@@ -119,7 +119,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
     margin: 0 auto;
     background: white;
     border-radius: 4px;
@@ -129,7 +128,6 @@
     flex: 1;
     border: none;
     outline: none;
-    padding: 12px 16px;
     font-size: 1rem;
 }
 .subscribe-form button{
@@ -225,5 +223,13 @@
     .flower-shop-heading{
         font-size: 1.25rem;
     }
-    
+    .footer-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .footer-social-navigation{
+        margin-top: 20px;
+    }
 }
