@@ -92,6 +92,57 @@
 .plant-card:hover .text-content{
     opacity: 0.8;
 }
+/* Subscribe Style */
+.subscribe-section {
+    position: relative;
+    background: url(../assets/subscribe-bg.png) center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.subscribe-section .overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2); 
+    inset: 0;
+}
+
+.subscribe-section .content{
+    position: relative;
+    color: white;
+    z-index: 2;
+    max-width: 90%;
+}
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.subscribe-form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    font-size: 1rem;
+}
+.subscribe-form button{
+    background-color: var(--primary-color);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.subscribe-form button:hover{
+    background-color: #d63c0f;
+}
+
 @media screen and (max-width: 525px){
     .flower-shop-font{
         font-size: 0.875rem;
@@ -165,4 +216,14 @@
     .section-title, .section-description{
         width: 100%;
     }
+
+    /* Subscribe Section Responsive */
+    .subscribe-section{
+        height: auto;
+        padding: 60px 20px;
+    }
+    .flower-shop-heading{
+        font-size: 1.25rem;
+    }
+    
 }
