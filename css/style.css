@@ -141,7 +141,7 @@
     background-color: #d63c0f;
 }
 
-@media screen and (max-width: 525px){
+@media screen and (max-width : 640px){
     .flower-shop-font{
         font-size: 0.875rem;
     }
@@ -187,11 +187,15 @@
     .plants{
         padding: 1rem;
     }
-    .cart-items{
-        grid-template-columns: repeat(2, 1fr);
+    .carts{
+        grid-template-columns: repeat(2,  1fr);
+        padding: 1rem;
+    }
+    .section-description{
+        max-width: 350px;
     }
     .cart-item, .cart-btn{
-        width: 220px;
+        max-width: 220px;
     }
     /* Plants lover responsive */
     .flower-lover>div{
